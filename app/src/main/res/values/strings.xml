@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Alkye</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="logo">logo</string>
+    <string name="in_a_world_of_finite_resources_the_true_measure_of_innovation_lies_not_in_its_complexity_but_in_its_capacity_to_simplify_and_empower_the_human_mind">In a world of finite resources, the true measure of innovation lies not in its complexity, but in its capacity to simplify and empower the human mind.</string>
+    <string name="welcome">Welcome</string>
+    <string name="terms"><u>Terms</u></string>
+    <string name="sign_up">Sign-up</string>
+    <string name="sign_in">Sign-in</string>
+    <string name="recent_articles">Recent Articles</string>
+    <string name="social_connect">Social Connect</string>
+    <string name="stay_update_with_my_latest_post_on_your_favorite_platforms">Stay update with my latest post on your favorite platforms</string>
+    <string name="step_into_tomorrow_exploring_spatial_computing_s_impact_on_industries_and_the_metaverse"><b>Step Into Tomorrow:</b> Exploring Spatial Computing’s Impact On Industries And The Metaverse!</string>
+    <string name="step_into_tomorrow_n_exploring_spatial_computing_s_impact_on_industries_and_the_metaverse"><b>Step Into Tomorrow:</b> \nExploring Spatial Computing’s Impact On Industries And The Metaverse!</string>
+    <string name="technology">technology</string>
+    <string name="_26_feb_2024">26 Feb 2024</string>
+    <string name="type_article">Type\n<b>Article</b></string>
+    <string name="category_technology">Category\n<b>Technology</b></string>
+    <string name="date_26_feb_2024">Date\n<b>26 FEB 2024</b></string>
+    <string name="introduction">Introduction</string>
+    <string name="now_simulating_the_enterprise">Now: Simulating the enterprise</string>
+    <string name="intro">Intro</string>
+    <string name="s_the_industrial">s the industrial metaverse evolves into a critical enterprise , industrial applications.Leveraging the power </string>
+    <string name="As_the_industrial_metaverse">of data  and artificial intelligence, these technologies are adeptly replicating real-life processes, revolutionising the way industries operate and unlocking new dimensions of efficiency and innovation. Frequently, innovative technologies generate excitement among early adopters and consumers, only to gradually fade from the public eye. However, these technologies often reemerge months or years later, having transformed into valuable and productive business tools. In the current year, we’ve witnessed the evolution of certain metaverse capabilities as they advance into new dimensions, specifically within the expansive realm of spatial computing. Transitioning from being consumer-centric novelties to essential enterprise tools, spatial technologies are gaining significant traction in industrial applications. Companies are increasingly prioritising digital twins, spatial simulation, augmented work instructions, and collaborative digital spaces. These applications not only enhance safety but also contribute to heightened efficiency in factories and businesses. Now: Simulating the enterprise In recent years, technological progress has laid the foundation for the industrial metaverse. Strategic investments in digital twins, the enabling power of 5G, cloud computing, edge technologies, and artificial intelligence have collectively delivered substantial value, effectively addressing persistent challenges and enhancing overall operational efficiency. Executives consistently emphasise process simulation and digital twins as the most prevalent use cases. In intricate industrial environments characterised by complexity, high costs, and precision requirements, robust simulations play a pivotal role. When seamlessly integrated with real-time data and models via the Internet of Things (IoT) and advanced networking, simulations significantly enhance the likelihood of successfully establishing a new operation or optimising an existing one. Notably, analysts project a substantial growth trajectory for the global digital twins market, foreseeing a leap from US$6.5 billion in 2021 to an estimated US$125.7 billion by the year 2030. Spatial operations are in their infancy, with ongoing advancements in enabling technologies. Imagine a scenario where robust satellite networks seamlessly integrate with IoT sensors in a distant factory, constantly processing real-time data on output and performance. As technology progresses, a forthcoming era of digital twins emerges, featuring photorealistic simulations grounded in physics and empowered by AI. Moreover, these simulations are intricately linked to company ecosystems, exemplified by platforms like BMW’s Omniverse. This transformative evolution is set to influence various facets of enterprise operations, ranging from space planning and design to overall operational processes. New: The spatial web is under construction</string>
+    <string name="related_articles">Related Articles</string>
+    <string name="search_here">Search here...</string>
+</resources>

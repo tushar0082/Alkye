@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="20dp"
+    android:orientation="vertical"
+    tools:context=".ui.FragmentLogin">
+
+    <ImageView
+        android:id="@+id/ic_logo"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:src="@drawable/ic_logo"
+        android:contentDescription="@string/logo"
+        android:layout_marginTop="140dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        />
+    <TextView
+        android:id="@+id/tv_text"
+        android:fontFamily="@font/strawford_black"
+        android:textColor="#000000"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/welcome"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="33dp"
+        app:layout_constraintTop_toBottomOf="@id/ic_logo"
+        />
+    <ImageView
+        android:id="@+id/ic_quote"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="50dp"
+        android:src="@drawable/ic_quote"
+        app:layout_constraintTop_toBottomOf="@+id/tv_text"
+        app:layout_constraintStart_toStartOf="parent"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/scilla_regularitalic"
+        android:textSize="18sp"
+        android:textAlignment="viewStart"
+        app:layout_constraintStart_toEndOf="@+id/ic_quote"
+        app:layout_constraintTop_toBottomOf="@id/ic_quote"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:text="@string/in_a_world_of_finite_resources_the_true_measure_of_innovation_lies_not_in_its_complexity_but_in_its_capacity_to_simplify_and_empower_the_human_mind"
+        />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/bt_sign_up"
+        android:layout_width="match_parent"
+        android:layout_height="63dp"
+        app:layout_constraintBottom_toTopOf="@+id/bt_sign_in"
+        android:layout_marginBottom="15dp"
+        app:cornerRadius="15dp"
+        android:textSize="18sp"
+        android:fontFamily="@font/strawford_medium"
+        android:backgroundTint="@color/black"
+        android:text="@string/sign_up"
+        android:layout_marginHorizontal="25dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        />
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/bt_sign_in"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        app:cornerRadius="15dp"
+        android:background="@drawable/bg_rect_round"
+        android:text="@string/sign_in"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:fontFamily="@font/strawford_medium"
+        android:layout_marginBottom="30dp"
+        android:layout_marginHorizontal="25dp"
+        app:layout_constraintBottom_toTopOf="@+id/tv_terms"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        />
+
+    <TextView
+        android:id="@+id/tv_terms"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+       app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginBottom="10dp"
+        android:text="@string/terms"
+        android:textSize="16sp"
+        android:fontFamily="@font/strawford_regular"
+        />
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

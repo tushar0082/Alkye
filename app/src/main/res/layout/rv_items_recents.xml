@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:paddingHorizontal="15dp"
+    android:paddingVertical="10dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="16dp"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/Image"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:src="@drawable/cars"
+                android:scaleType="centerCrop"
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                >
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_youtube"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="10dp"
+                    />
+
+                <TextView
+                    android:id="@+id/tv_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/technology"
+                    android:drawablePadding="10dp"
+                    android:textSize="14sp"
+                    android:layout_marginTop="15dp"
+                    android:fontFamily="@font/strawford_medium"
+                    android:layout_marginStart="10dp"
+                    app:drawableStartCompat="@drawable/ic_bullet" />
+
+                <TextView
+                    android:id="@+id/tv_sub_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:fontFamily="@font/strawford_medium"
+                    android:textSize="16sp"
+                    android:text="@string/step_into_tomorrow_exploring_spatial_computing_s_impact_on_industries_and_the_metaverse"/>
+
+                <TextView
+                    android:id="@+id/tv_date"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/_26_feb_2024"
+                    android:textColor="#929292"
+                    android:textSize="12sp"
+                    android:fontFamily="@font/strawford_medium"
+                    android:layout_marginTop="25dp"
+                    android:layout_marginStart="30dp"
+                    android:layout_marginBottom="10dp"
+                    />
+
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>
